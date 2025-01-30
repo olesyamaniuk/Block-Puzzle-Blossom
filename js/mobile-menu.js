@@ -26,10 +26,10 @@ function toggleAnswer(element) {
 
   if (answer.style.display === "none" || answer.style.display === "") {
     answer.style.display = "block";
-    buttonImg.src = "/image/how/arrow_up.png"; 
+    buttonImg.src = "/img/how/arrow_up.png"; 
   } else {
     answer.style.display = "none";
-    buttonImg.src = "/image/how/arrow_down.png"; 
+    buttonImg.src = "/img/how/arrow_down.png"; 
   }
 }
 
@@ -39,10 +39,10 @@ function toggleAnswer(element) {
 
   if (answer.style.display === "none" || answer.style.display === "") {
     answer.style.display = "block";
-    buttonImg.src = "/image/faq/arrow_up.png"; 
+    buttonImg.src = "/img/faq/arrow_up.png"; 
   } else {
     answer.style.display = "none";
-    buttonImg.src = "/image/faq/arrow_down.png"; 
+    buttonImg.src = "/img/faq/arrow_down.png"; 
   }
 }
 
